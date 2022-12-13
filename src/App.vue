@@ -5,15 +5,18 @@ import Experience from './components/Experience.vue'
 import Photo from './components/Photo.vue'
 import Skills from './components/Skills.vue'
 import Title from './components/Title.vue'
+import Contact from './components/Contact.vue'
 </script>
 
 <template>
-  <div>
-    <div class="container">
+  <div class="color-brown">
+    <div class="box">
       <Photo/>
     </div>
     <hr>
-    
+    <Contact/>
+    <hr>
+  </div>
     <Title/>
     <hr>
     <AcademicFormation/>
@@ -22,9 +25,10 @@ import Title from './components/Title.vue'
     <hr>
     <Courses/>
     <Skills/>
-  </div>
 </template>
 
 <style scoped>
-
+ .color-brown{
+   background-color: brown;
+ }
 </style>

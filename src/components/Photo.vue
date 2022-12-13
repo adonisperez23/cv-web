@@ -1,7 +1,9 @@
 <template>
+  <div class="container text-center">
     <img class="foto" src="fotograduacion.jpg" alt="">
     <h2>{{Nombre_completo}}</h2>
     <h3>{{titulo}}</h3>
+  </div>
 </template>
 
 <script setup>
