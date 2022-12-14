@@ -9,7 +9,7 @@ import Contact from './components/Contact.vue'
 </script>
 
 <template>
-  <div class="color-brown">
+  <div class="color tipoletra">
     <div class="box">
       <Photo/>
     </div>
@@ -28,7 +28,5 @@ import Contact from './components/Contact.vue'
 </template>
 
 <style scoped>
- .color-brown{
-   background-color: brown;
- }
+
 </style>

@@ -13,3 +13,10 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+
+.tipoletra{
+  font-family: cursive;
+}
+.color{
+  background-color: rgb(128, 111, 108);
+}

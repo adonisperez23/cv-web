@@ -1,14 +1,13 @@
 <template>
   <div class="cont">
       <div class="">
-        <h6>FACEBOOK:</h6>
-        <!-- <link href="https://www.facebook.com/adonisdavid20/about"> -->
+        <i class="bi bi-facebook"><a href="https://www.facebook.com/adonisdavid20">adonisdavid20</a></i>
       </div>
       <div class="">
-        <h6>TELEFONO: +584148942782</h6>
+        <i class="bi bi-whatsapp">+584148942782</i>
       </div>
       <div class="">
-        <h6>CORREO: adonisdavid20@gmail.com</h6>
+        <i class="bi bi-envelope-at" style="font-size: 1rem;">adonisdavid20@gmail.com</i>
       </div>
   </div>
 </template>
