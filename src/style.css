@@ -1,6 +1,7 @@
 h4,h5,h6{
     margin-top: 0px;
     margin-bottom: 0px;
+    text-decoration: underline;
 }
 hr {
   height: 2px;
@@ -18,5 +19,12 @@ hr {
   font-family: cursive;
 }
 .color{
-  background-color: rgb(128, 111, 108);
+  background-color: rgb(80, 71, 70);
+}
+
+.white{
+   color: white;
+}
+.espacio{
+  margin-top: 10px;
 }
