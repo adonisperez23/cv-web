@@ -1,6 +1,6 @@
 <template>
   <div class="container text-center">
-    <img class="foto rounded" src="fotograduacion.jpg" alt="">
+    <img class="foto rounded" src="/fotograduacion.jpg" alt="">
     <h2>{{Nombre_completo}}</h2>
     <h3>{{titulo}}</h3>
   </div>
@@ -20,7 +20,7 @@
   .foto{
     height: 150px;
     max-width: 225px;
-    /* margin-left: 200px; */
+    margin-top: 20px;
   }
   h3{
     margin-top: initial;
