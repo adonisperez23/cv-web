@@ -1,20 +1,20 @@
 <template>
   <div>
-    <h4 >Cursos y talleres</h4>
+    <h4>Cursos y talleres</h4>
     <span>
       <strong>PLATZI</strong>
     </span>
     <ul>
-      <li>Curso: Curso de Programación Básica (agosto 2017).</li>
+      <li>Curso: Curso de Programación Básica </li>
     </ul>
     <ul>
-      <li>Curso: Curso de SQL y MYSQL (septiembre 2017)</li>
+      <li>Curso: Curso de SQL y MYSQL</li>
     </ul>
     <ul>
       <li>Curso: Curso de POSTGRESQL</li>
     </ul>
     <ul>
-      <li>Curso: Curso de Fundamentos de Ingeniería de Software (</li>
+      <li>Curso: Curso de Fundamentos de Ingeniería de Software </li>
     </ul>
     <ul>
       <li>Curso: Introducción a Terminal y Línea de Comandos</li>
@@ -34,7 +34,18 @@
     <span><strong>FYR LOIS</strong></span>
     <ul>
       <li>Curso: Interchange 1 and Interchange 2 levels equivalent to A1 and A2, According to the
-        common European Framework Standards. (mayo 2010). Duración: 10 meses.</li>
+        common European Framework Standards.</li>
+    </ul>
+    <span>
+      <strong>
+        CODIGOFACILITO
+      </strong>
+    </span>
+    <ul>
+      <li>
+        Curso Profesional de
+        deploy en servidores
+      </li>
     </ul>
   </div>
 </template>
