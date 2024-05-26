@@ -1,7 +1,8 @@
 <template>
   <div>
     <h4>Experiencia</h4>
-    <p>* Mas de 10 años trabajando en un Restaurant, por lo que he desempeñado distintos cargos como: </p>
+    <p><strong>*</strong> Mas de 10 años trabajando en un Restaurant desempeñando distintos cargos como:
+    </p>
     <div class="container">
       <li>Mesero</li>
       <li>Ayudante de cocina</li>
@@ -10,18 +11,26 @@
       <li>Administrador</li>
     </div>
 
-    <p class="espacio">* Programador en el desarrollo (en ambiente web) de un sistema de gestión de pedidos y control
-      de inventario para el Restaurant. Los Cinco Mejores Sabores. El proyecto fue desarrollado en
+    <p class="espacio"><strong>*</strong> Programador en el desarrollo de un sistema de gestión de pedidos y control
+      de inventario (en entorno web) para el Restaurant. Los Cinco Mejores Sabores. El proyecto fue desarrollado en
       Python en el lado backend con Django y Django restframework y Vue JS en el lado del frontend.</p>
-    <p class="espacio">
-      * Desarrollador full stack en el desarrollo la aplicacion web del Restaurant Los Cinco Mejores Sabores.
-      La aplicacio web permite a los usuarios y clientes del restaurant realizar pedidos de comida seleccionando los
-      contornos
-      de preferencia.
     <div class="container">
-      Enlace a la app-web:
+      <li>
+        Repositorio del proyecto frontend: <a href="https://gitlab.com/adonisdavid20/rlcms-vue"
+          target="_blank">https://gitlab.com/adonisdavid20/rlcms-vue</a>
+      </li>
+      <li>
+        Repositorio del proyecto backend: <a href="https://gitlab.com/adonisdavid20/rlcms"
+          target="_blank">https://gitlab.com/adonisdavid20/rlcms</a>
+      </li>
+    </div>
+    <p class="espacio">
+      <strong>*</strong> Desarrollador full-stack de la aplicacion web del Restaurant Los Cinco Mejores
+      Sabores.
+    <div class="container">
+      Enlace de la app-web:
       <a rel="stylesheet" target="_blank" href="https://loscincosabores.com">
-        www.loscincosabores.com
+        https://loscincosabores.com
       </a>
     </div>
 
@@ -41,10 +50,36 @@
         <li> Node con Express.js</li>
       </ul>
       <ul>
-        <li> AWS EC2, S3, CLOUDFRONT </li>
+        <li> Amazon Web Services: EC2, S3, CLOUDFRONT </li>
       </ul>
     </div>
-
+    </p>
+    <p class="espacio">
+      <strong>*</strong> Desarrollador full-stack de la aplicacion web para la start-up Voley.
+    <div class="container">
+      <p>Enlace de la app: <a href="https://voley.app" target="_blank">https://voley.app</a></p>
+      <p>Tecnologias y servicios utilizados en el desarrollo y despliegue del proyecto:</p>
+      <ul>
+        <li>
+          Vue.js
+        </li>
+      </ul>
+      <ul>
+        <li>
+          Tailwindcss
+        </li>
+      </ul>
+      <ul>
+        <li>
+          Node js con Nest.js Framework
+        </li>
+      </ul>
+      <ul>
+        <li>
+          Digital ocean: Droplets, Spaces
+        </li>
+      </ul>
+    </div>
     </p>
   </div>
 </template>

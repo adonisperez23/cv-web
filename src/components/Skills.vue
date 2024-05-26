@@ -1,6 +1,6 @@
 <template>
-  <div >
-    <h4 >Conocimientos y Habilidades</h4>
+  <div>
+    <h4>Conocimientos y Habilidades</h4>
     <ul>
       <li>Proactivo</li>
     </ul>
@@ -23,9 +23,6 @@
       <li>Manejo de Microsoft PowerPoint intermedio</li>
     </ul>
     <ul>
-      <li>Ingles instrumental.</li>
-    </ul>
-    <ul>
       <li>HTML, CSS y JS básico/intermedio</li>
     </ul>
     <ul>
@@ -35,13 +32,17 @@
       <li>Django y Django restframework intermedio</li>
     </ul>
     <ul>
-      <li>Manejo de Adobe Illustrator CC básico</li>
+      <li>Manejo de sistemas operativos Windows</li>
     </ul>
     <ul>
-      <li>Manejo de sistemas operativos Windows XP, Vista,
-        7, 8, 10 y Software Libre.</li>
+      <li>Manejo de distribuciones de sistemas operativos tipo linux como Debian y Ubuntu intermedio</li>
     </ul>
-
+    <ul>
+      <li>Manejo de servicios de computacion en la nube con Digital Ocean basico/intermedio</li>
+    </ul>
+    <ul>
+      <li>Manejo de servicios de computacion en la nube con Amazon Web Services basico/intermedio</li>
+    </ul>
   </div>
 </template>
 
