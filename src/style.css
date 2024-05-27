@@ -15,16 +15,18 @@ hr {
   align-items: center;
 }
 
-.tipoletra{
-  font-family: cursive;
-}
-.color{
-  background-color: rgb(80, 71, 70);
+
+.margin-y{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.white{
-   color: white;
-}
-.espacio{
-  margin-top: 10px;
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
