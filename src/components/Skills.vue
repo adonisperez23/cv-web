@@ -8,6 +8,9 @@
       <li>HTML, CSS y JS</li>
     </ul>
     <ul>
+      <li>Desarrollo de interfaces de usuario con Vue.js Framework</li>
+    </ul>
+    <ul>
       <li>Manejo de distribuciones de sistemas operativos tipo linux como Debian y Ubuntu</li>
     </ul>
     <ul>

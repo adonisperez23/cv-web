@@ -5,7 +5,8 @@
         Monagas, Venezuela</i>
     </div>
     <div class="">
-      <i class="bi bi-linkedin"> </i><a href="https://www.linkedin.com/in/adonisperez93/">adonisperez93</a>
+      <i class="bi bi-linkedin"> </i><a href="https://www.linkedin.com/in/adonisperez93/"
+        target="_blank">adonisperez93</a>
     </div>
     <div class="">
       <i class="bi bi-whatsapp"> <a href="https://api.whatsapp.com/send?phone=584148942782" target="_blank">

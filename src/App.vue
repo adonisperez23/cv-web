@@ -4,7 +4,7 @@ import Courses from './components/Courses.vue'
 import Experience from './components/Experience.vue'
 import Photo from './components/Photo.vue'
 import Skills from './components/Skills.vue'
-// import Aboutme from './components/Aboutme.vue'
+import Aboutme from './components/Aboutme.vue'
 import Contact from './components/Contact.vue'
 
 function downloadPdf() {
@@ -24,7 +24,7 @@ function downloadPdf() {
       <hr>
     </div>
     <div class="container total-width">
-      <!-- <Aboutme /> -->
+      <Aboutme />
       <Experience />
       <hr>
       <AcademicFormation />

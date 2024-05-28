@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h4>Un poco sobre mi persona...</h4>
-    <p>Hola!, mi nombre es Adonis Perez,
-      naci el 1ro de Octubre del año 1993 en Maturin,
-      Estado Monagas, Venezuela. Me considero una persona
-      introvertida
-
-
+    <h4>Perfil profesional</h4>
+    <p>
+      Ingeniero de sistemas con habilidades en desarrollo web. A traves de mi formación como ingeniero de sistemas me ha
+      permitido llevar a cabo soluciones a empresas que han requerido encontrar alternativas eficientes cuando han
+      requerido optimizar su flujo de trabajo mediante tecnologia web. Estoy en la capacidad de poder desempeñar roles
+      como desarrollador
+      frontend utilizando el framework Vue js y como desarrollador backend usando Node js.
     </p>
   </div>
 </template>
