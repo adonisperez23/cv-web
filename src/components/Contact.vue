@@ -35,6 +35,10 @@ i {
   margin-right: 2px;
 }
 
+a {
+  color: #9BA4B5;
+}
+
 @media (max-width:576px) {
   .mobile-contact {
     display: flex;

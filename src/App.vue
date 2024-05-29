@@ -49,8 +49,9 @@ function downloadPdf() {
   .mobile-app {
     display: block;
     max-width: 350px;
-    margin: auto;
-    width: 400px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 375px;
   }
 
   hr {
@@ -64,7 +65,7 @@ function downloadPdf() {
   }
 
   .width-mobile {
-    width: 400px;
+    width: 375px;
   }
 
 
