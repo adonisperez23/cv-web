@@ -1,5 +1,5 @@
 <template>
-  <div class="margin-y">
+  <div class="margin-y mobile-skills">
     <h4>Conocimientos y Habilidades</h4>
     <ul>
       <li>Manejo de Microsoft Word, Excel, PowerPoint </li>
@@ -20,4 +20,16 @@
 </template>
 
 <script setup>
+
 </script>
+<style scoped>
+@media (max-width:576px) {
+  .mobile-skills {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: start;
+    max-width: 350px;
+  }
+}
+</style>

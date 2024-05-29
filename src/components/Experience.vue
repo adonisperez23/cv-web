@@ -1,5 +1,5 @@
 <template>
-  <div class="margin-y">
+  <div class="margin-y mobile-xp ">
     <h4>Experiencia</h4>
     <!-- <p><strong>*</strong> Mas de 10 años trabajando en un Restaurant desempeñando distintos cargos como:
     </p>
@@ -11,23 +11,39 @@
       <li>Administrador</li>
     </div> -->
     <div class="margin-y">
-      <p>Restaurant los cinco mejores sabores | Diciembre 2019 - Diciembre 2020</p>
-      <div class="container margin-y">
-        <p class=""> Programador en el desarrollo de un sistema de gestión de pedidos y control
-          de inventario (en entorno web) para el Restaurant. Los Cinco Mejores Sabores. El proyecto fue desarrollado en
-          Python en el lado backend con Django y Django restframework y Vue JS en el lado del frontend.</p>
-        <li>
-          Repositorio del proyecto frontend: <a href="https://gitlab.com/adonisdavid20/rlcms-vue"
-            target="_blank">https://gitlab.com/adonisdavid20/rlcms-vue</a>
-        </li>
-        <li>
-          Repositorio del proyecto backend: <a href="https://gitlab.com/adonisdavid20/rlcms"
-            target="_blank">https://gitlab.com/adonisdavid20/rlcms</a>
-        </li>
+      <p>Voley | Noviembre 2023 - actualidad</p>
+      <div class="container">
+        <p class="espacio">
+          Desarrollador full-stack de la aplicacion web para la start-up Voley. La aplicacion consiste en una red social
+          para conectar jugadores y entrenadores de voleyball personalizando sus perfiles ya sea un jugador o un
+          entrenador. Ademas podran agendar partidos, organizar torneos y alquilar canchas.
+        </p>
+        <p>Enlace de la app: <a href="https://voley.app" target="_blank">https://voley.app</a></p>
+        <p>Tecnologias y servicios utilizados en el desarrollo y despliegue del proyecto:</p>
+        <ul>
+          <li>
+            Vue.js
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Tailwindcss
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Node js con Nest.js Framework
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Digital ocean: Droplets, Spaces
+          </li>
+        </ul>
       </div>
     </div>
     <div class="margin-y">
-      <p>Restaurant los cinco mejore sabores | Enero 2023 - Octubre-2023</p>
+      <p>Restaurant los cinco mejore sabores | Enero 2023 - Septiembre-2023</p>
       <div class="container">
         <p>
           Desarrollador full-stack de la aplicacion web del Restaurant Los Cinco Mejores
@@ -73,42 +89,39 @@
         </ul>
       </div>
     </div>
-
     <div class="margin-y">
-      <p>Voley | Noviembre 2023 - actualidad</p>
-      <div class="container">
-        <p class="espacio">
-          Desarrollador full-stack de la aplicacion web para la start-up Voley. La aplicacion consiste en una red social
-          para conectar jugadores y entrenadores de voleyball personalizando sus perfiles ya sea un jugador o un
-          entrenador. Ademas podran agendar partidos, organizar torneos y alquilar canchas.
-        </p>
-        <p>Enlace de la app: <a href="https://voley.app" target="_blank">https://voley.app</a></p>
-        <p>Tecnologias y servicios utilizados en el desarrollo y despliegue del proyecto:</p>
-        <ul>
-          <li>
-            Vue.js
-          </li>
-        </ul>
-        <ul>
-          <li>
-            Tailwindcss
-          </li>
-        </ul>
-        <ul>
-          <li>
-            Node js con Nest.js Framework
-          </li>
-        </ul>
-        <ul>
-          <li>
-            Digital ocean: Droplets, Spaces
-          </li>
-        </ul>
+      <p>Restaurant los cinco mejores sabores | Diciembre 2019 - Diciembre 2020</p>
+      <div class="container margin-y">
+        <p class=""> Programador en el desarrollo de un sistema de gestión de pedidos y control
+          de inventario (en entorno web) para el Restaurant. Los Cinco Mejores Sabores. El proyecto fue desarrollado en
+          Python en el lado backend con Django y Django restframework y Vue JS en el lado del frontend.</p>
+        <li>
+          Repositorio del proyecto frontend: <a href="https://gitlab.com/adonisdavid20/rlcms-vue"
+            target="_blank">https://gitlab.com/adonisdavid20/rlcms-vue</a>
+        </li>
+        <li>
+          Repositorio del proyecto backend: <a href="https://gitlab.com/adonisdavid20/rlcms"
+            target="_blank">https://gitlab.com/adonisdavid20/rlcms</a>
+        </li>
       </div>
     </div>
+
   </div>
 </template>
 
 <script setup>
 
+
 </script>
+
+<style scoped>
+@media (max-width:576px) {
+  .mobile-xp {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: start;
+    max-width: 350px;
+  }
+}
+</style>

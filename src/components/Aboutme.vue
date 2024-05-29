@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h4>Perfil profesional</h4>
+  <div class="mobile-about">
+    <h4 class="font-title">Perfil profesional</h4>
     <p>
       Ingeniero de sistemas con habilidades en desarrollo web. A traves de mi formación como ingeniero de sistemas me ha
       permitido llevar a cabo soluciones a empresas que han requerido encontrar alternativas eficientes cuando han
@@ -20,5 +20,15 @@ const datos_personales = {
 <style scoped>
 span {
   display: block;
+}
+
+@media (max-width:576px) {
+  .mobile-about {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: start;
+    max-width: 350px;
+  }
 }
 </style>

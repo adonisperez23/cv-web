@@ -1,5 +1,5 @@
 <template>
-  <div class="margin-y">
+  <div class="margin-y mobile-courses">
     <h4>Cursos</h4>
     <ul>
       <li>Programación Básica </li>
@@ -49,3 +49,15 @@
 <script setup>
 
 </script>
+
+<style>
+@media (max-width:576px) {
+  .mobile-courses {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: start;
+    max-width: 350px;
+  }
+}
+</style>
